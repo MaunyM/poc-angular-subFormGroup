@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import {PocModule} from './poc/poc.module';
 
 
 @NgModule({
@@ -10,6 +11,7 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
+    PocModule,
     BrowserModule
   ],
   providers: [],
