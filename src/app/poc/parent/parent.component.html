@@ -1,5 +1,5 @@
 <form [formGroup]="pocFormGroup">
-  <input placeholder="name" formControlName="name">
+  <input placeholder="name" formControlName="name" required>
   <app-child [myFormGroup]="pocFormGroup.controls.dateTime"></app-child>
   Valid : {{pocFormGroup.valid}}
 </form>
